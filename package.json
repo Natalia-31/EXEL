@@ -1,0 +1,11 @@
+{
+  "name": "n8n-telegram-excel-compare",
+  "version": "1.0.0",
+  "description": "n8n Telegram bot for comparing Excel files and highlighting differences",
+  "scripts": {
+    "start": "n8n"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}

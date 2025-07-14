@@ -1,0 +1,28 @@
+{
+  "name": "Excel Compare Telegram Bot",
+  "nodes": [
+    {
+      "parameters": {
+        "updates": ["message"]
+      },
+      "id": "telegram-trigger",
+      "name": "Telegram Trigger",
+      "type": "n8n-nodes-base.telegramTrigger",
+      "typeVersion": 1,
+      "position": [260, 300],
+      "credentials": {
+        "telegramApi": {
+          "id": "telegram-creds",
+          "name": "Telegram API"
+        }
+      }
+    }
+    // ... (оставьте остальные узлы как в присланном ранее JSON)
+  ],
+  "connections": {
+    // ...
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}
