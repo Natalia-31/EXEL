@@ -1,4 +1,0 @@
-# Railway variables
-NODE_FUNCTION_ALLOW_EXTERNAL=exceljs
-N8N_COMMUNITY_PACKAGES_ENABLED=true
-# При необходимости добавьте Telegram токен как переменную окружения TELEGRAM_BOT_TOKEN в интерфейсе Railway
